@@ -1,0 +1,58 @@
+{
+  "name": "button-React",
+  "version": "0.0.1",
+  "description": "Button component for React",
+  "author": "Benjamin Rhys-Davies",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenjaminRhys-Davies/button-React.git"
+  },
+  "keywords": [
+    "react",
+    "button"
+  ],
+  "bugs": {
+    "url": "https://github.com/BenjaminRhys-Davies/button-React/issues"
+  },
+  "homepage": "https://github.com/BenjaminRhys-Davies/button-React",
+  "main": "index.js",
+  "semistandard": {
+    "global": [
+      "jasmine",
+      "describe",
+      "beforeEach",
+      "afterEach",
+      "it",
+      "expect"
+    ],
+    "ignore": [
+      "test/spec.js"
+    ]
+  },
+  "scripts": {
+    "test": "semistandard && ./node_modules/.bin/webpack --colors --watch"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "lodash": "^4.6.1",
+    "react": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "inject-loader": "^2.0.1",
+    "jasmine-core": "^2.4.1",
+    "jasmine-expect": "^2.0.2",
+    "jasmine-jquery-matchers": "^1.1.1",
+    "jquery": "^2.2.1",
+    "react-addons-test-utils": "^0.14.7",
+    "semistandard": "^7.0.5",
+    "webpack": "^1.12.14"
+  }
+}
